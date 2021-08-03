@@ -36,7 +36,8 @@ console.log(result2);
 
 const calculateAverage = function(numbers) {
     const average = numbers.reduce((total, n) => total + n)/numbers.length;  
-    return (Math.round(average));
+    const averageRounded = Math.round(average);
+    return averageRounded;
 }
 const result3 = calculateAverage([4, 8, 12, 24, 25]);
 console.log(result3);
@@ -48,7 +49,8 @@ const averageNumber = function(number1, number2, number3, number4, number5){
     const total = number1 + number2 + number3 + number4 + number5;
     const totalNumbers = 5;
     const average = total / totalNumbers;
-    return (Math.round(average));
+    const averageRounded = Math.round(average);
+    return averageRounded;
 }
 const result4 = averageNumber(6, 8.6, 77, 123.234, 25);
 console.log(result4); 
