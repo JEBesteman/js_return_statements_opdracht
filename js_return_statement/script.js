@@ -11,7 +11,7 @@ const result = isNumberBig(115);
 console.log(result);
 
 //werkt met 33 false, 100 false, 115 true
-
+//function produces something, doesn't use console.log
 
 //Bouncer at a club
 
@@ -28,7 +28,7 @@ const mayYouEnter = function(maxNumberPeople, currentNumberPeople, agePerson) {
 const result2 = mayYouEnter(300, 250, 21);
 console.log(result2);
 
-//function that do something! 
+//function that produces something! 
 //werkt ook met andere getallen
 
 
